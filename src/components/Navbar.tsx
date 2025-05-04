@@ -37,8 +37,8 @@ const Navbar = () => {
           <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
             <Link href="/" className="hover:text-blue-600 transition">Home</Link>
             <Link href="/sobre" className="hover:text-blue-600 transition">Sobre</Link>
-            <Link href="/contato" className="hover:text-blue-600 transition">Contato</Link>
-            <Link href="/equipe" className="hover:text-blue-600 transition">Equipe</Link>
+            <Link href="#contato" className="hover:text-blue-600 transition">Contato</Link>
+            <Link href="#equipe" className="hover:text-blue-600 transition">Equipe</Link>
             <Link href="/galeria" className="hover:text-blue-600 transition">Galeria</Link>
             
           </nav>
@@ -58,8 +58,8 @@ const Navbar = () => {
           <nav className="flex flex-col items-start space-y-2 px-4 py-4 text-gray-700 font-medium text-sm">
             <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Home</Link>
             <Link href="/sobre" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Sobre</Link>
-            <Link href="/contato" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Contato</Link>
-            <Link href="/equipe" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Equipe</Link>
+            <Link href="#contato" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Contato</Link>
+            <Link href="#equipe" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Equipe</Link>
             <Link href="/galeria" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Galeria</Link>
             
           </nav>

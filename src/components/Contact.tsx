@@ -22,7 +22,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full bg-blue-100 py-20 flex justify-center items-center relative">
+    <section id='contato' className="w-full bg-blue-100 py-20 flex justify-center items-center relative">
       <div className="bg-white w-full max-w-md rounded-md shadow-lg p-8 relative z-10">
         <h2 className="text-3xl font-bold mb-8">Contato</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
