@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 backdrop-blur-sm ${
+      className={`fixed w-full z-50 transition-all duration-300 backdrop-blur-sm bg-white/30 shadow-md ${
         scrolled
           ? 'bg-white/10 shadow-md backdrop-blur-md'
           : 'bg-white'
@@ -30,15 +30,17 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-2xl font-bold text-blue-700">
-            <Link href="/">stabilidade</Link>
+            <Link href="/">Stabilidade</Link>
           </div>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
-            <Link href="/" className="hover:text-blue-600 transition">home</Link>
-            <Link href="/sobre" className="hover:text-blue-600 transition">sobre</Link>
-            <Link href="/contato" className="hover:text-blue-600 transition">contato</Link>
-            <Link href="/equipe" className="hover:text-blue-600 transition">equipe</Link>
+            <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+            <Link href="/sobre" className="hover:text-blue-600 transition">Sobre</Link>
+            <Link href="/contato" className="hover:text-blue-600 transition">Contato</Link>
+            <Link href="/equipe" className="hover:text-blue-600 transition">Equipe</Link>
+            <Link href="/galeria" className="hover:text-blue-600 transition">Galeria</Link>
+            
           </nav>
 
           {/* Mobile Menu Button */}
@@ -58,6 +60,8 @@ const Navbar = () => {
             <Link href="/sobre" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Sobre</Link>
             <Link href="/contato" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Contato</Link>
             <Link href="/equipe" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Equipe</Link>
+            <Link href="/galeria" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 transition">Galeria</Link>
+            
           </nav>
         </div>
       )}
