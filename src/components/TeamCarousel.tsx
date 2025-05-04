@@ -46,7 +46,7 @@ export function TeamCarousel() {
 
   return (
     <section className="py-16 px-4 max-w-7xl mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-8">Conheça nossa equipe</h2>
+      <h2 className="text-3xl font-bold mb-8">Nossa equipe</h2>
       <Slider {...settings}>
         {team.map((member, idx) => (
           <div key={idx} className="px-3">

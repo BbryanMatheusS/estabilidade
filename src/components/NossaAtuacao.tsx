@@ -7,6 +7,7 @@ import {
   TrendingUp,
   DollarSign,
   LucideIcon,
+  Leaf,
 } from 'lucide-react'
 
 interface Pilar {
@@ -18,32 +19,39 @@ interface Pilar {
 
 const pilares: Pilar[] = [
   {
-    titulo: 'Estratégia',
+    titulo: 'Ética',
     subtitulo: '(o que se faz)',
     descricao:
-      'Validação e/ou definição de estratégia considerando os objetivos de curto e longo prazo do Acionista.',
+      'Transparência e compromisso com a legalidade e o bem-estar dos nossos clientes.',
     icone: Briefcase,
   },
   {
-    titulo: 'Governança',
+    titulo: 'Excelência',
     subtitulo: '(como se faz)',
     descricao:
-      'Definição e implementação de modelo de governança corporativa, com eventual constituição de Conselho de Administração.',
+      'Qualidade máxima em cada projeto, com foco em resultados mensuráveis.',
     icone: ShieldCheck,
   },
   {
-    titulo: 'Gestão',
+    titulo: 'Inovação',
     subtitulo: '(como otimizar)',
     descricao:
-      'Levantamento e compreensão do cenário atual da Companhia, objetivos de longo prazo, restrições e oportunidades de melhoria. Foco em geração de valor.',
+      'Atualização constante de métodos e práticas para oferecer as melhores soluções.',
     icone: TrendingUp,
   },
   {
-    titulo: 'Capital',
-    subtitulo: '(como financiar e como capturar o valor)',
+    titulo: 'Parceria',
+    subtitulo: '(como financiar)',
     descricao:
-      'Avaliação e identificação de alternativas para melhor uso de Capital, seja ele dívida ou equity, em associação com a Estratégia, incluindo eventual Advisory em processos de M&A.',
+      'Relacionamentos de confiança, atuando como parceiros de negócios.',
     icone: DollarSign,
+  },
+  {
+    titulo: 'Sustentabilidade',
+    subtitulo: '(como capturar o valor)',
+    descricao:
+      'Crescimento a longo prazo, fortalecendo a base das empresas atendidas.',
+    icone: Leaf,
   },
 ]
 
@@ -61,7 +69,7 @@ export default function NossaAtuacao() {
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Nossa atuação é baseada nos 4 pilares <br /> fundamentais para todo negócio:
+          Nossa atuação é baseada em 5 pilares <br /> fundamentais para todo negócio:
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
