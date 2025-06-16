@@ -10,13 +10,36 @@ export default function SobrePage() {
             {/* HERO */}
             <section className="bg-gradient-to-b from-blue-50 to-white py-16 px-4 text-center">
                 <div className="max-w-4xl mx-auto">
-                    <h1 className="text-4xl font-bold mb-4">Sobre a Stabilidade Consultoria Estratégica</h1>
-                    <p className="text-lg text-gray-700">
-                        Fundada em outubro de 2023, oferecemos soluções estratégicas em áreas tributária, financeira e contábil,
-                        impulsionando o crescimento sustentável de empresas em todo o Brasil.
-                    </p>
+                    <h1 className="text-4xl font-bold mb-6">Sobre a Stabilidade Consultoria Estratégica</h1>
+                    <div className="text-lg text-gray-700 space-y-4 text-justify">
+                        <p>
+                            A Stabilidade é uma consultoria estratégica, tributária e financeira focada em empresas da área da saúde e da beleza.
+                            Atuamos ao lado de médicos, clínicas e negócios que precisam tomar decisões com mais segurança, reduzir a carga
+                            tributária e estruturar seu crescimento com base em planejamento.
+                        </p>
+                        <p>
+                            Nosso diferencial está em unir visão estratégica com execução prática. Aplicamos o método <strong>Estratégia 360</strong>,
+                            que avalia seu modelo de negócios, estrutura societária, indicadores financeiros e posicionamento no mercado —
+                            tudo isso para gerar planos de ação reais, que saem do papel e trazem resultado.
+                        </p>
+                        <p>
+                            Com mais de 25 anos de experiência acumulada pelo nosso fundador, Edson C. A. Silva, já contribuímos para a recuperação
+                            de mais de <strong>R$ 2 bilhões</strong> em tributos pagos indevidamente, além de implementar estratégias que aumentaram
+                            a margem de lucro e a estabilidade de dezenas de empresas.
+                        </p>
+                        <p>
+                            Mas não paramos no diagnóstico: somos parceiros de decisão. Ajudamos nossos clientes a definir onde querem chegar e qual
+                            o melhor caminho para isso, com inteligência fiscal, controle financeiro, estruturação jurídica e planejamento estratégico
+                            de verdade — feito para o dia a dia e voltado ao futuro.
+                        </p>
+                        <p>
+                            Se você sente que está pagando mais impostos do que deveria, ou se sua clínica ou consultório pode crescer com mais
+                            segurança e menos improviso, fale com a Stabilidade. A gente mostra onde ajustar — e caminha junto com você.
+                        </p>
+                    </div>
                 </div>
             </section>
+
 
             {/* HISTÓRIA E VISÃO GERAL */}
             <section className="py-12 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
@@ -195,7 +218,7 @@ export default function SobrePage() {
                         </p>
                     </div>
                 </div>
-                <TeamCarousel/>
+                <TeamCarousel />
             </section>
             {/* QUEM ATENDEMOS */}
             <section className="py-16 px-4 bg-white">
