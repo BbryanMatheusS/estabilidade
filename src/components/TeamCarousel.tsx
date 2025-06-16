@@ -6,20 +6,20 @@ import { TeamMemberCard } from './TeamMemberCard';
 
 const team = [
   {
-    name: 'Maria Silva',
-    role: 'Sócia Fundadora',
+    name: 'Edson C A Silva',
+    role: 'Sócio Fundador',
     imageUrl: '/images/Edson.jpeg',
   },
   {
-    name: 'João Andrade',
-    role: 'Desenvolvedor Sênior',
+    name: 'Bryan Matheus',
+    role: 'Desenvolvedor',
     imageUrl: '/images/Edson.jpeg',
   },
   {
-    name: 'Clara Souza',
-    role: 'Designer UX/UI',
+    name: 'Grazy',
+    role: 'Sócio',
     imageUrl: '/images/Edson.jpeg',
-  },
+  },  
   // Adicione mais membros...
 ];
 

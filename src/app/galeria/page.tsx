@@ -6,7 +6,7 @@ import { VideoCard } from '@/components/VideoCard';
 
 const videos = [
     {
-        id: 'ALZHF5UqnU4',
+        id: 'oEoCeB0M2iA',
         title: 'Marshmello - Sozinho (Vídeo Oficial)',
         description: 'Descrição breve do vídeo 1.'
       },
