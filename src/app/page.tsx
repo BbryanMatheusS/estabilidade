@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import SobrePage from "@/components/Sobre";
 import { TeamCarousel } from "@/components/TeamCarousel";
 import { VideoCarousel } from "@/components/VideoCarousel";
+import WhatsAppButton from "@/components/WhatsButton";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
     <VideoCarousel/>
     <TeamCarousel/>
     <ContactSection/>
+    <WhatsAppButton/>
     
     
     
